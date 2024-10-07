@@ -1530,7 +1530,9 @@ Boxes CSS
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-
+.single-box:hover a{
+  color: white;
+}
 .single-box::before {
   content: '';
   position: absolute;
