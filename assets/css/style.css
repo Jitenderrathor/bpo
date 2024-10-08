@@ -10974,3 +10974,14 @@ Auth Area CSS
   border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
+.white-logo,
+.black-logo{
+  max-width: 120px;
+}
+.team-slides .owl-dots:nth-child(3){
+  display: none !important;
+}
+.hero-banner .owl-dots{
+  position: relative;
+  bottom: 130px;
+}

@@ -758,7 +758,7 @@
     padding-bottom: 85px;
   }
   .repair-banner-content {
-    text-align: center;
+    /* text-align: center; */
   }
   .repair-banner-content h1 {
     line-height: 1.4;
@@ -1716,6 +1716,7 @@
     left: 0;
     margin-bottom: 20px;
   }
+  
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1946,10 +1947,7 @@
   .repair-main-banner {
     padding-top: 155px;
   }
-  .repair-banner-content {
-    text-align: center;
-    margin-bottom: 115px;
-  }
+  
   .repair-banner-content h1 {
     margin-bottom: 18px;
     font-size: 30px;
@@ -2538,3 +2536,13 @@
   }
 }
 /*# sourceMappingURL=responsive.css.map */
+@media only screen and (max-width: 576px){
+  .repair-banner-image{
+    margin-top: 0px;
+  }
+  .repair-banner-content {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+}
