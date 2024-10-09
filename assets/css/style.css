@@ -605,6 +605,17 @@ Navbar CSS
 .startp-nav nav .navbar-nav .nav-item a {
   font-weight: 500;
   font-size: 15px;
+  color: white;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+#header.is-sticky .startp-nav nav .navbar-nav .nav-item a {
+  font-weight: 500;
+  font-size: 15px;
   color: #4a6f8a;
   padding-left: 0;
   padding-right: 0;
@@ -721,6 +732,7 @@ Navbar CSS
 }
 
 .startp-nav nav .others-option .btn.btn-light {
+  color: white;
   background: transparent;
   border: 2px dashed #cdf1d8;
   padding: 12px 33px;
@@ -5934,13 +5946,17 @@ Page Title CSS
 .page-title-area {
   position: relative;
   z-index: 1;
-  background: transparent url(../../assets/img/banner-bg1.jpg) right top no-repeat;
+  background: url(../img/banner-bg1.jpg);
+  background-size: cover !important;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
   padding-top: 190px;
-  padding-bottom: 100px;
+  padding-bottom: 190px;
   text-align: center;
 }
 
 .page-title-area h2 {
+  color: white;
   font-size: 28px;
   font-weight: 700;
   margin: 0;
