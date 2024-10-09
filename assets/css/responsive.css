@@ -61,8 +61,8 @@
   }
   .hosting-main-banner {
     height: 100%;
-    padding-top: 170px;
-    padding-bottom: 75px;
+    /* padding-top: 170px;
+    padding-bottom: 75px; */
   }
   .hosting-main-banner .hosting-banner-content h1 {
     font-size: 25px;
@@ -1749,8 +1749,8 @@
   }
   .hosting-main-banner {
     height: 100%;
-    padding-top: 185px;
-    padding-bottom: 165px;
+    /* padding-top: 185px;
+    padding-bottom: 165px; */
   }
   .hosting-main-banner .hosting-banner-content h1 {
     font-size: 30px;

@@ -23,17 +23,32 @@
         var message = $("#message").val();
         $.ajax({
             type: "POST",
-            url: "assets/php/form-process.php",
+            url: "https://formsubmit.co/ajax/jitender.work.mediax@gmail.com",
+            dataType: 'json',
+            accepts: 'application/json',
             data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&phone_number=" + phone_number + "&message=" + message,
-            success : function(statustxt){
-                if (statustxt == "success"){
-                    formSuccess();
-                } else {
-                    formError();
-                    submitMSG(false,statustxt);
-                }
+            success: (data) => {
+                window.location.href = 'index.html?success=true';
+            },
+            error: (err) => {
+                console.error('Error submitting form:', err);
+                alert('There was an error submitting the form.');
             }
         });
+        // $.ajax({
+        //     method: 'POST',
+        //     url: 'https://formsubmit.co/ajax/yash@mediax.co.in',
+        //     dataType: 'json',
+        //     accepts: 'application/json',
+        //     data: formData,
+        //     success: (data) => {
+        //         window.location.href = 'index.html?success=true';
+        //     },
+        //     error: (err) => {
+        //         console.error('Error submitting form:', err);
+        //         alert('There was an error submitting the form.');
+        //     }
+        // });
     }
 
     function formSuccess(){
