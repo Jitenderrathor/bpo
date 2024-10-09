@@ -613,16 +613,12 @@ Navbar CSS
   margin-left: 14px;
   margin-right: 14px;
 }
+#home-page #header .startp-nav nav .navbar-nav .nav-item a,
+#home-page #header.is-sticky .startp-nav nav .navbar-nav .nav-item a {
+  color: #4a6f8a !important;
+}
 #header.is-sticky .startp-nav nav .navbar-nav .nav-item a {
-  font-weight: 500;
-  font-size: 15px;
   color: #4a6f8a;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-left: 14px;
-  margin-right: 14px;
 }
 
 .startp-nav nav .navbar-nav .nav-item a:hover, .startp-nav nav .navbar-nav .nav-item a:focus, .startp-nav nav .navbar-nav .nav-item a.active {
@@ -731,6 +727,7 @@ Navbar CSS
   right: 4px;
 }
 
+
 .startp-nav nav .others-option .btn.btn-light {
   color: white;
   background: transparent;
@@ -738,7 +735,9 @@ Navbar CSS
   padding: 12px 33px;
   margin-right: 10px;
 }
-
+#home-page .startp-nav nav .others-option .btn.btn-light {
+  color: black;
+}
 .startp-nav nav .others-option .btn.btn-light:focus {
   color: #0e314c !important;
 }
@@ -11092,4 +11091,7 @@ Auth Area CSS
     grid-column: 5;
     grid-row: calc(4 + var(--row-step));
   }
+}
+.col-lg-4 .single-services-box-item .icon{
+  background-color: transparent !important;
 }
