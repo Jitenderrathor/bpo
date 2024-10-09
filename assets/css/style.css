@@ -1654,7 +1654,7 @@ About CSS
 Why Choose US CSS
 =================================================*/
 .why-choose-us {
-  background: transparent url(../../assets/img/banner-bg1.jpg) right top no-repeat;
+  /* background: transparent url(../../assets/img/banner-bg1.jpg) right top no-repeat; */
   position: relative;
   z-index: 1;
 }
@@ -2659,6 +2659,8 @@ Team CSS
   z-index: 1;
   padding-left: 35px;
   padding-right: 35px;
+  max-width: 200px;
+  margin: auto;
 }
 
 .single-team .team-image img {
