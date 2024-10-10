@@ -113,7 +113,7 @@ $("#case-study-project").load("case-study-project.html"); */
 		nav: false,
 		dots: true,
 		autoplayHoverPause: true,
-		autoplay: true,
+		autoplay: false,
 		margin: 30,
 		responsive: {
 			0: {
@@ -129,7 +129,7 @@ $("#case-study-project").load("case-study-project.html"); */
 				items: 3
 			},
 			1500: {
-				items: 5
+				items: 4
 			}
 		}
 	});
